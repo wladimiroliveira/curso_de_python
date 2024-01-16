@@ -1,0 +1,8 @@
+nome = input('\nDigite seu nome completo: ')
+nome = nome.strip()
+print(f'\nO nome ({nome}) em MAIÚSCULAS fica da seguinte maneira = {nome.upper()}.')
+print(f'O nome ({nome}) em MINÚSCULAS fica da seguinte maneira = {nome.lower()}.')
+dividido = nome.split()
+junto = ''.join(dividido)
+print(f'O nome ({nome}) tem {len(junto)} letras.')
+print(f'O primeiro nome de ({nome}) tem {len(dividido[0])} letras.')
